@@ -10,10 +10,10 @@ app = Flask(__name__)
 
 # MySQL database connection
 mydb = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="questin@7784#",
-    database="kukiebase"
+    host="host-name",
+    user="root-name",
+    password="password",
+    database="database-name"
 )
 
 # Load YOLO model
@@ -31,7 +31,7 @@ def get_current_location():
 def get_current_address():
     location = get_current_location()
     if location:
-        geolocator = OpenCage(api_key='76e21007eef847c4b6da7a5d27b32c65')
+        geolocator = OpenCage(api_key='api-key')
         latitude = location[0]
         longitude = location[1]
         try:
