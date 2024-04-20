@@ -24,6 +24,8 @@ To deploy BlazeAlert and start using its features, follow these steps:
 
 1. **Clone the Repository:**
 
+    https://github.com/Yashwanth-git-coder/BlazeAlert.git
+
 2. **Install Dependencies:**
 
     pip install -r requirements.txt
@@ -39,6 +41,7 @@ To deploy BlazeAlert and start using its features, follow these steps:
 
 
 5. **Access the Application:**
+
 Open your web browser and navigate to `http://localhost:5000` to access the BlazeAlert dashboard.
 
 ## Contributing:
