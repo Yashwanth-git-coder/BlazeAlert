@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Detection</title>
+</head>
+<body>
+    <h1>Fire Detection</h1>
+<button onclick="startFireDetection()">Start Fire Detection</button>
+    <div id="result"></div>
+<div>
+    <div id="latitude"></div>
+    <div id="longitude"></div>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="static/js/main.js"></script>
+
+    <script>
+         function startFireDetection() {
+        fetch('/fire_detection')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('result').innerText = data;
+        });
+    }
+
+        const button = document.getElementById('getCurrentLocation');
+        const latitudeDisplay = document.getElementById('latitude');
+        const longitudeDisplay = document.getElementById('longitude');
+
+        function gotLocation(position) {
+            console.log(position);
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            latitudeDisplay.textContent = `Latitude: ${latitude}`;
+            longitudeDisplay.textContent = `Longitude: ${longitude}`;
+        }
+
+        function failedToFetch() {
+            console.log("Failed to fetch the current location");
+        }
+
+        button.addEventListener("click", async () => {
+            navigator.geolocation.getCurrentPosition(gotLocation, failedToFetch)
+        });
+    </script>
+</body>
+</html>
+
