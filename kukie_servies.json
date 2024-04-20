@@ -2,12 +2,12 @@
   "type": "service_account",
   "project_id": "kukie-pro",
   "private_key_id": "f1a9039eb091ab21060b9063c7f96962fef579c2",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDa9s4Phgtyt99C\neUWJQs7/wxXAVmw/6A2gqDlzN+1KNXfvMzxCLZfcfouh5iHG4C+Bz/6096twD1cr\nUMU6H4TV6TToJV5tWQvZsW+h73VQIDdiDcV2/Ew69Yy5SzvlS/Po/W8b+6siF9af\ncSkVwr4tNHWv6ViZZrDketeBq4uo5nOx6Q8vuJFx203TYPTAjduJKT844PpU9OFL\nooQUn42tbhXDq4Lu33fMv8hP5gWdPjpv9B7SB0yrnMwcK0Mue60ltTU0upyErSwh\nKQ/rhYNrGb73HEFZY9N2bJHeG1rQEOg1f4bQSdirlRzHqMQsu9gi+uOp4G0Y49TH\nEtUmBLKPAgMBAAECggEAaKChEvresojY1icjinSRe9XoqVjCbgEArgFkPkF9kcWd\n0v8c7pRhqbsQFqLkBecu3C0ajLeBxFCYOvrj2yOfciV2oezlQ4PWrUVjTbIh0NEs\nFZ71+aaR+GRHw2yHKMhTusOK2Yi2m9pfNB2634qIHAqip5VtQBO5N9vY6T2ixOfC\nogt2/E/CAdmtC9IzwYEdr5TdF5jS5C/kUzlTQ4Q0DJPMHWdqe3EmsXfdWVYYa287\npmM5Bd0BsLsIqr0JDwDneuwOjd6bgfJnnmmN85/a1g35DnvV9Xrtgx+EWcdcflIt\nKrXqwgYI6ZTIPfs91CASbpuEPd9EMrHPgZEYFjRMMQKBgQD9CTlbB0wDKNIjdB0j\nV86/M+OcITTEKxSNJkYQVraSVDwS72qMKwGHC6vqNojmGE77ZAHB9hmDPMhwWtKS\nguuGWmdWuPBq3OGBJqzHEmG8TJDX7fx7yg2sbkRZcO3TZogmUuNrfNC8WGJ1GrkZ\nulQpRx6bYPqJEU/WUtsBA+O0PwKBgQDdh2jlmvwQHhy3cAibWNsK6jjEt0zGMko8\n8dmfJce64ybMMu03qqFLSjTXpswtNClbSz7ptAG0WAtaAOzAN+v3uYYGyUcuNIjn\nOYENNxY+oN03lkfHrLOaf1FbRxCcuxXUxBaXTGMd34jBDWAOL3hTnAkfa2VYMM/i\nrk3Dv5otsQKBgA0Px9UqGENlfQt1d/eWFccK76nkkOu7aZErs5wuTbhZ/svfbfmU\nUrzc3l/1trVh9dnGPMz9Xi3HGnWqSopjlbLWwdTZMRfjFQTssSiJi2AD98odr9XY\nBUKsYnzXdn9eIJMR3klzJPdD/LkcywdH9gY3dJ4CsIwYx61Bk6qGv99TAoGBALUx\nYFcM4Ua9mndfp2qIzwCqeyxLUPx7fcVDe+B0Il12FfHHZce2RJ80XuxUfYQruff2\nH8s/dHVx3jcLspm2I8dHc5xxXUsppSCbJDcO657mLIqe3K8xTuX7ZSvngGrxivWw\nPVobHKb+gviEXCC+KwkYA04zpXzwz9h1AR4uxYjBAoGBANmM3qsy/Q63J1d1meKx\nLK8XCTiUFqKzSlXsCRtJgD5UaAp8y3pBZZF8zA37n2lo3+e9TJ5Umf3fWECBwlbg\nigf8AFl/stDTd3Nmb8cgJ6ICykOfyAa7Gm4+LbsGEAX92FAuCA7BjEhfQOpfwWRb\n0HIngYB2WOUlHey6W2jX8ZMf\n-----END PRIVATE KEY-----\n",
+  "private_key": "Private Key Name\n",
   "client_email": "firebase-adminsdk-satjc@kukie-pro.iam.gserviceaccount.com",
-  "client_id": "102401240279605745951",
+  "client_id": "client_id",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-satjc%40kukie-pro.iam.gserviceaccount.com",
+  "client_x509_cert_url": "Client-Url",
   "universe_domain": "googleapis.com"
 }
